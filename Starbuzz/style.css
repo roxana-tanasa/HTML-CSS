@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Laila&family=Parisienne&display=swap');
+/** *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} **/
+
+html{
+    scroll-behavior: smooth;
+}
+h1 {
+    color: forestgreen;
+    font-weight:lighter;
+    font-size: 2em;
+    }
+body{
+    font-family: "Laila",sans-serif;
+    background-color: rgb(200, 150  , 20);
+    height: 200vh;
+}
+a{
+    color:darkred;
+    text-decoration: none;
+}
+
+a:visited{
+    color: indigo;
+}
+a:hover{
+    background-color: lightcoral;
+    text-decoration-line: underline;
+}
+
+#top{
+    color: blueviolet;
+}
+
+.price{
+    color:mediumvioletred;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#menu{
+    background-color:tan;
+    border-style:solid;
+    border-color:midnightblue purple green sienna;
+    border-width: 2px;
+    padding: 0.5em 0.2em;
+    margin: 0em auto;
+    width: 25%;
+    height: 2em;
+    text-align: center;
+    line-height: 1em;
+    box-sizing: border-box;
+
+}
+
+#relative{
+    background-color:teal;
+    position: relative;
+    top:6em;
+    left: 6em;
+}
+div{
+    height: 12em;
+    width: 12em;
+    border-radius: 1em;
+    background-color:crimson;
+}
+
+#absolute{
+    background-color: darkmagenta;
+    position: absolute;
+    top: 6em;
+    right: 24em;
+
+}
+#fixed{
+    background-color:darkviolet;
+    position: fixed;
+    top:6em;
+    left:12em;
+    z-index: 1;
+}
