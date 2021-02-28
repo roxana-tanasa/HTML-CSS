@@ -83,3 +83,8 @@ div{
     left:12em;
     z-index: 1;
 }
+#sticky{
+    background-color: chartreuse;
+    position: sticky;
+    top:0
+}
