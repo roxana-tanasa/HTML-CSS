@@ -84,7 +84,7 @@ div{
     z-index: 1;
 }
 #sticky{
-    background-color: chartreuse;
+    background-color:indianred;
     position: sticky;
     top:0
 }
