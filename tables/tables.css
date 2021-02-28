@@ -1,0 +1,27 @@
+table{
+    font-style: sans-serif;
+    border-style: solid;
+    border-spacing: 0;
+    border-collapse: collapse;
+    border-color:tomato;
+}
+
+th{
+    background-color: crimson;
+    border-style: solid none;
+    border-width: 1px;
+    text-align: left;
+    padding: 0.2em 0.4em;
+    color:whitesmoke;
+}
+
+td{
+    border-style: solid none;
+    border-width: 1px;
+    padding: 0.2em 0.4em;
+    border-color: tomato;
+}
+
+tr:nth-child(2n+1){
+    background-color:salmon
+}
